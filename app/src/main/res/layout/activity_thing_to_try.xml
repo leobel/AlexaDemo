@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thing_to_try"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    tools:context="org.freelectron.leobel.testlwa.ThingToTryActivity">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:id="@+id/alexa_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="34dp">
+
+            <ImageView
+                android:layout_width="176dp"
+                android:layout_height="82dp"
+                android:src="@drawable/alexa_logo"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/alexa_thing_to_try_text"
+            android:layout_below="@+id/alexa_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/alexa_something_to_ask"/>
+
+        <LinearLayout
+            android:id="@+id/alexa_bubble"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_below="@+id/alexa_thing_to_try_text"
+            android:layout_width="314dp"
+            android:layout_marginBottom="45dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:gravity="start|center_vertical"
+                    android:textColor="#ffffff"
+                    android:text="@string/alexa_thing_to_try_1"
+                     android:background="@drawable/left_bubble"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="start|center_vertical"
+                    android:textColor="#ffffff"
+                    android:text="@string/alexa_thing_to_try_2"
+                    android:background="@drawable/right_bubble"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp">
+
+                <TextView
+                    android:layout_width="245dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:gravity="start|center_vertical"
+                    android:textColor="#ffffff"
+                    android:text="@string/alexa_thing_to_try_3"
+                    android:background="@drawable/left_bubble"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="start|center_vertical"
+                    android:textColor="#ffffff"
+                    android:text="@string/alexa_thing_to_try_4"
+                    android:background="@drawable/right_bubble"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_below="@+id/alexa_bubble"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:background="#dddddd"/>
+
+        <TextView
+            android:id="@+id/alexa_app_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textColorLink="@color/colorPrimary"
+            android:text="@string/alexa_link_app"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.freelectron.leobel.testlwa.SplashActivity">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/alexa_logo"
+            android:layout_width="176dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="49dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/alexa_logo"/>
+        
+        <TextView
+            android:id="@+id/alexa_include_text"
+            android:layout_below="@+id/alexa_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/alexa_include"/>
+
+        <TextView
+            android:id="@+id/alexa_allow_text"
+            android:layout_below="@+id/alexa_include_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:lineSpacingExtra="1dp"
+            android:text="@string/alexa_allow"/>
+
+        <ImageButton
+            android:id="@+id/login_with_amazon"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/login_with_amazon"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

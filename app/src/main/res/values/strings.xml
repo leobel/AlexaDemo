@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestLWA</string>
+    <string name="require_permission">Need record audio permission</string>
+    <string name="premission_cancel">Cancel</string>
+    <string name="premission_ok">Ok</string>
+    <string name="skip">Skip</string>
+    <string name="things_to_try_done">Done</string>
+    <string name="things_to_try_sign_out">Sing Out</string>
+    <string name="alexa">Alexa</string>
+    <string name="alexa_thing_to_try">Things to Try</string>
+    <string name="alexa_include">Your device includes access to Alexa.\nConnect your Amazon account to\naccess personalized features.</string>
+    <string name="alexa_allow">Alexa allows you to use your voice\nto play music and get news, sports scores,\nweather and more—all hands-free.\nAll you have to do is ask Alexa</string>
+    <string name="alexa_thing_to_try_1">Alexa, what’s the weather?</string>
+    <string name="alexa_thing_to_try_3">Alexa, what are some top-rated Indian restaurants?</string>
+    <string name="alexa_thing_to_try_2">Alexa, play my Flash Briefing.</string>
+    <string name="alexa_thing_to_try_4">Alexa, set a timer for 20 mins.</string>
+    <string name="alexa_something_to_ask">Here are some of the many things\nyou can ask Alexa</string>
+    <string name="alexa_link_app">To learn more and access additional features,\ndownload the <a href="https://play.google.com/store/apps/details?id=com.amazon.dee.app&amp;hl=en">Alexa App</a>.</string>
+    <string name="signout_error">Something were wrong trying to signout your account</string>
+</resources>
